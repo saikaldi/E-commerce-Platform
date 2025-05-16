@@ -6,7 +6,8 @@ import lombok.Getter;
 
 @AllArgsConstructor
 @Getter
-public class Message {
-    private String text;
-
+public class UserDto {
+    private Long id;
+    private String name;
+    private String email;
 }
